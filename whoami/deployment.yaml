@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: whoami
-  namespace: h_haaks
+  namespace: h-haaks
 spec:
   replicas: 3
   selector:

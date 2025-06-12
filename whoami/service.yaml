@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: whoami
-  namespace: h_haaks
+  namespace: h-haaks
 spec:
   type: ClusterIP
   selector:
